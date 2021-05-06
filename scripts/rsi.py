@@ -8,9 +8,9 @@ import pytz
 from datetime import datetime , date
 
 #  inserir seus dados
-user = 'seu usuário' 
-pwd = 'sua senha'
-server = 'o servidor da sua corretora'
+user = 1000063862
+pwd = 'G@briel10'
+server = 'ClearInvestimentos-PRD'
 
 print('Conectando ao MetaTrader...')
 # conecte-se ao MetaTrader 5
