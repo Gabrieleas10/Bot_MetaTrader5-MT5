@@ -64,4 +64,5 @@ for ativo in ativos:
     except:
         pass
 
+# gera o excel de resposta ao final do pregão com os ativos que tiveram os requisitos estabelecidos acionados
 resposta.to_excel('E:\\Projects\\Bot_MetaTrader5-MT5\\output\\output_file.xlsx')
