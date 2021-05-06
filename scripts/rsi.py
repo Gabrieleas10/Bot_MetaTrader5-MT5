@@ -7,6 +7,24 @@ import MetaTrader5
 import pytz
 from datetime import datetime , date
 
+#  inserir seus dados
+user = 'seu usuário'
+pwd = 'sua senha'
+server = 'o servidor da sua corretora(a mesma deve te informar)'
+
+print('Conectando ao MetaTrader...')
+# conecte-se ao MetaTrader 5
+mt5.initialize()
+
+authorized = mt5.login(login = user , password = pwd , server = server)
+if authorized:
+    # exibimos os dados sobre a conta de negociação como estão
+    print('mt5.account_info()')
+else:
+    print("failed to connect at account #{}, error code: {}".format(user, mt5.last_error()))
+    mt5.shutdown()
+
+
 # impotação base com os ativos a ser analisados
 ativo = pd.read_csv('E:\Projects\Bot_MetaTrader5-MT5\data\ativos.txt')
 
