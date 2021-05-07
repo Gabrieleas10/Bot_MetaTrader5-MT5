@@ -21,3 +21,11 @@ A partir de análises quantitativas massiva de diversos ativos é possível iden
 
 Primeiro, vamos dar uma visão geral dos indicadores utilizados: Indice de Força Relativa(IFR ou RSI do inglês) e o conceito de médias móveis.
 
+## Relative Strength Index (RSI) ou Indice de Força Relativa (IFR):
+
+Esse indicador através de cálculos matemáticos levando em consideração os preços e sua variação ele estima quando um ativo está sobrevendido ou sobrecomprado. Ou seja, quando o mercado está com o caráter sobrevendido pode ser uma boa oportunidade de compra do ativo esperando uma possível recuperação do ativo e o contrário é verdadeiro para o sobrecomprado.
+
+![alt text] (https://goldenbrokersmy.azureedge.net/726/kAgX5MPoCaAvJcuy-unnamed.png)
+
+## Médias Móveis:
+
