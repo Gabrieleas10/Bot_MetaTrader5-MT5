@@ -2,6 +2,9 @@
  
  Bot identificador de oportunidades de comprar/vender ações da Bolsa Brasileira.
 
+# Disclaimer:
+
+O objetivo desses algoritmos são apenas para compartilhar informações e contribuir com a comunidade, e não tem a finalidade de fazer qualquer indicação de plataforma, indicador ou ativo.
 # Objetivo:
 
 A partir de análises quantitativas massiva de diversos ativos é possível identificar ações da B3 (bolsa brasileira) em que se encontram em bom momento para compra ou venda e executar assim operações conhecidas como swing trade.
@@ -15,4 +18,6 @@ A partir de análises quantitativas massiva de diversos ativos é possível iden
 3 - Instalar as bibliotecas: MetaTrader5 e finta.
 
 # Descrição:
+
+Primeiro, vamos dar uma visão geral dos indicadores utilizados: Indice de Força Relativa(IFR ou RSI do inglês) e o conceito de médias móveis.
 

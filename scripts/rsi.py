@@ -53,6 +53,8 @@ for ativo in ativos:
         rates = mt5.copy_rates_from(ativo , mt5.TIMEFRAME_D1 , utc_from, range_time)
         # transformando para dataframe
         rf = pd.DataFrame(rates)
+        # transformando a coluna da data no formato datetime
+        rf['time'] = pd.to_datetime(rf['time'], unit='s')
         # criando coluna com o indicador
         rf['RSI']= TA.RSI(rf, n_period)
         if (rf['RSI'][range_time -1] < 25):
