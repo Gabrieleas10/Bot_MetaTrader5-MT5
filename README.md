@@ -25,7 +25,7 @@ Primeiro, vamos dar uma visão geral dos indicadores utilizados: Indice de Forç
 
 Esse indicador através de cálculos matemáticos levando em consideração os preços e sua variação ele estima quando um ativo está sobrevendido ou sobrecomprado. Ou seja, quando o mercado está com o caráter sobrevendido pode ser uma boa oportunidade de compra do ativo esperando uma possível recuperação do ativo e o contrário é verdadeiro para o sobrecomprado.
 
-![alt text] (https://goldenbrokersmy.azureedge.net/726/kAgX5MPoCaAvJcuy-unnamed.png)
+![Alt text] (https://goldenbrokersmy.azureedge.net/726/kAgX5MPoCaAvJcuy-unnamed.png "Exemplo RSI")
 
 ## Médias Móveis:
 
